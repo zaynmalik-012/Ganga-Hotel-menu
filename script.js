@@ -18,7 +18,7 @@
     ["Shira","1 plate",null,35,"porridge"],
     ["Upit","1 plate",null,30,"porridge"],
     ["Idli (2 pieces)","1 plate",25,40,"idli"],
-    ["Idli Wada (2+1 pieces)","1 plate",50,60,"idli"],
+    ["Idli Wada (2+1 pieces)","1 plate",50,65,"idli"],
     ["Wada Sambar (2 pieces)","1 plate",30,60,"vada"],
     ["Puri Bhaji (4 pieces)","1 plate",35,70,"puri"],
     ["Susla","1 plate",25,35,"rice"],
