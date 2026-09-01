@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Ganga Udupi Hotel — Menu</title>
+<link rel="stylesheet" href ="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="phone-stage">
+<div class="screen">
+<div class="notch"></div>
+<div class="wrap">
+
+  <header class="sticky">
+    <div class="brandline">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 2c-3 3-4 5-4 7a4 4 0 0 0 8 0c0-2-1-4-4-7Z" fill="#E0993A"/></svg>
+      GANGA UDUPI HOTEL
+    </div>
+    <div class="tabs" id="tabs">
+      <div class="tab-highlight" id="tabHighlight"></div>
+      <button class="tab-btn active" data-panel="menu">Main Menu</button>
+      <button class="tab-btn" data-panel="tea">Hot Beverages</button>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="signboard">
+      <h1 class="title">Ganga Udupi Hotel</h1>
+      <div class="subtitle">Udupi Kitchen · Tiffins · Filter Coffee</div>
+    </div>
+
+    <div class="steam-rig" aria-hidden="true">
+      <svg viewBox="0 0 120 110">
+        <path class="steam-line s1" d="M46 55 Q 40 45 46 36 Q 52 27 46 18"/>
+        <path class="steam-line s2" d="M60 58 Q 54 47 60 38 Q 66 29 60 20"/>
+        <path class="steam-line s3" d="M74 55 Q 68 45 74 36 Q 80 27 74 18"/>
+        <path d="M35 62 h50 l-6 20 a10 10 0 0 1 -10 8 h-18 a10 10 0 0 1 -10 -8 Z" fill="#E0993A" opacity="0.9"/>
+        <ellipse cx="60" cy="62" rx="25" ry="6" fill="#F3C878"/>
+        <path d="M28 78 h64 l-4 14 a12 12 0 0 1 -12 10 h-32 a12 12 0 0 1 -12 -10 Z" fill="#134E4A" opacity="0.95"/>
+        <ellipse cx="60" cy="78" rx="32" ry="7" fill="#1c6b64"/>
+      </svg>
+    </div>
+
+    <div class="veg-badge"><span class="veg-mark"></span> 100% Vegetarian</div>
+  </div>
+
+  <!-- MAIN MENU PANEL -->
+  <section class="panel active" id="panel-menu">
+    <div class="section-title">
+      <span>Tiffins &amp; Meals</span>
+      <span class="leaf-divider"><svg viewBox="0 0 200 10" preserveAspectRatio="none"><line x1="0" y1="5" x2="200" y2="5" stroke="#134E4A" stroke-width="1.5" stroke-dasharray="2 6"/></svg></span>
+    </div>
+    <div class="col-heads"><span></span><span>Particulars</span><span>Half</span><span>Full</span></div>
+    <div class="rows" id="rows-menu"></div>
+    <p class="note">Good food, great taste — every item is worth a try!<br>Prices are subject to change without prior notice &bull; Taxes as applicable.<br><span class="star">*</span> Jamun full-plate price as listed on the printed card.</p>
+  </section>
+
+  <!-- BEVERAGES PANEL -->
+  <section class="panel" id="panel-tea">
+    <div class="section-title">
+      <span>Beverages</span>
+      <span class="leaf-divider"><svg viewBox="0 0 200 10" preserveAspectRatio="none"><line x1="0" y1="5" x2="200" y2="5" stroke="#134E4A" stroke-width="1.5" stroke-dasharray="2 6"/></svg></span>
+    </div>
+    <div class="col-heads"><span></span><span>Particulars</span><span>Half</span><span>Full</span></div>
+    <div class="rows" id="rows-tea"></div>
+    <div class="quote-box"><div class="quote show" id="quoteText">Har maslay ka hal — ek cup chai</div></div>
+  </section>
+
+  <footer class="page">Scanned with love &middot; <b>Ganga Udupi Hotel</b> &middot; Thank you for visiting</footer>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
